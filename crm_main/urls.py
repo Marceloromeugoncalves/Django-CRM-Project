@@ -1,8 +1,12 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from django.urls import include
 
-
-from apps.common.views import HomeView, SignUpView, DashboardView, ProfileUpdateView, ProfileView
+from apps.common.views import HomeView
+from apps.common.views import SignUpView
+from apps.common.views import DashboardView
+from apps.common.views import ProfileUpdateView
+from apps.common.views import ProfileView
 
 from django.contrib.auth import views as auth_views
 
